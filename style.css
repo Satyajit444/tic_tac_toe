@@ -62,6 +62,7 @@ nav ul{
 .imgbox img{
     width: 0;
     transition: width 1s ease-in-out;
+    margin-left: 20px;
 }
 
 .br-0{
