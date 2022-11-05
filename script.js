@@ -70,6 +70,7 @@ reset.addEventListener('click' , ()=>{
         element.innerText = ""
     })
     document.querySelector(".imgbox").getElementsByTagName('img')[0].style.width = "0px"
+    document.getElementsByClassName("info")[0].innerText  = "Turn for " + turn;
 
 
 })
